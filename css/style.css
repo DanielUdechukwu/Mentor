@@ -1,0 +1,72 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.c-primary{
+  color: #5fcf80;
+  text-decoration: none;
+}
+.c-bg{
+  background: #5fcf80;
+  border: none;
+}
+.c-bg:hover{
+  background: #5fcf80;
+}
+.c-primary:hover{
+  color: #5fcf80;
+}
+.intro{
+  background-image: url('../images/hero-bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+#about li{
+  list-style-image: url('../images/check-circle.svg');
+}
+#counts{
+  background: #f6f7f6;
+}
+.circle{
+
+}
+.circle{
+  margin: 0 auto;
+  align-items: center;
+  height: 70px;
+  width: 70px;
+  background: #ecf9f0;
+}
+.xx:hover{
+  outline: #5fcf80 solid .2px;
+  color: #5fcf80;
+}
+.xx > div > h3,
+.title p,
+.fnt{
+  font-size: 1rem !important;
+  font-weight: 600;
+}
+.title p::after {
+  content: "";
+  width: 80px;
+  height: 1px;
+  display: inline-block;
+  background: #9ae1af;
+  margin: 4px 10px;
+}
+.trainer-profile img{
+  width: 3rem;
+}
+.profile-icons a{
+  text-decoration: none;
+  color: #000;
+}
+.course-detail h2:hover{
+  color: #5fcf80;
+  transition: all ease-in-out .15s;
+}
