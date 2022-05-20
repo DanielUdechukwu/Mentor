@@ -42,6 +42,7 @@
   background: #ecf9f0;
 }
 .xx:hover{
+  transition: all ease-in-out .25s;
   outline: #5fcf80 solid .2px;
   color: #5fcf80;
 }
@@ -66,7 +67,53 @@
   text-decoration: none;
   color: #000;
 }
+.social a{
+  text-decoration: none;
+  color: #7e9486;
+}
+.social a:hover{
+  color: #5fcf80;
+  transition: all ease-in-out .25s;
+}
 .course-detail h2:hover{
   color: #5fcf80;
   transition: all ease-in-out .15s;
+}
+.footer-form{
+  width: 100%;
+  margin-top: 30px;
+  background: #fff;
+  padding: 10px 10px;
+  position: relative;
+  border-radius: 50px;
+  text-align: left;
+  border: 1px solid #e0e5e2;
+}
+form input[type="email"]{
+  border: 0;
+}
+form input[type="submit"]{
+  position: absolute;
+  top: -1px;
+  right: -1px;
+  bottom: -1px;
+  border: 0;
+  background: none;
+  font-size: 16px;
+  padding: 0 20px 2px 20px;
+  background: #5fcf80;
+  color: #fff;
+  transition: 0.3;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+}
+form input[type="submit"]:hover{
+  background: #3ac162;
+  transition: all ease-in-out .25s;
+}
+footer li{
+  list-style: none;
+}
+footer a{
+  text-decoration: none;
+  color: #777;
 }
