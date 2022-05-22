@@ -3,6 +3,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+.top{
+  padding-top: 4.5rem;
+}
 .trans{
   transition: all ease-in-out .25s;
 }
