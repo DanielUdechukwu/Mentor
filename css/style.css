@@ -119,3 +119,11 @@ footer a{
   color: #ffffff !important;
   transition: all ease-in-out .25s;
 }
+.testimonial-box{
+  position: relative;
+}
+.testimonial-item img{
+  position: absolute;
+  left: -48px;
+  top: 20px;
+}
